@@ -1,0 +1,40 @@
+OBITO,,,
+Campo,Tipo,Descrição,Obrigatório?
+paciente,Númerico,Identificador de cada paciente,Sim
+sexo,Texto,Sexo do paciente,Sim
+idade,Númerico,Idade do paciente,Sim
+municipio,Texto,Múnicipio onde foi registrada a morte,Sim
+data_obito,Data,Data da confirmação da morte,Sim
+comorbidade,Texto,Indica se o paciente possuia alguma comorbidade,Sim
+,,,
+,,,
+CASOS_TOTAIS,,,
+Campo,Tipo,Descrição,Obrigatório?
+id,Númerico,Identificador do paciente,Sim
+urs,Texto,Região metropolitana ao qual o local onde o casso ocorreu pertence ,Não
+micro,Texto,Municipio onde o caso foi registrado,Sim
+macro,Texto,Região do estado ao qual o municipio pertence,Não
+data_notificacao,Data,Data do diagnóstico do paciente,Sim
+classificacao_caso,Texto,Indica se o casa foi confirmado ou ainda é uma suspeita,Sim
+sexo,Texto,Indica o sexo do paciente,Sim
+idade,Númerico,Indica a idade do paciente,Sim
+faixa_etaria,Texto,Intervalo de idade ao qual o paciente pertence,Sim
+municipio_residencia,Texto,Municipio onde o paciente residia,Sim
+codigo,Númerico,Código do municipio de residencia do paciente,Sim
+evolucao,Texto,"Indica o estado do paciente, se ele está recuperado, em acompanhamento ou veio a obito",Sim
+data_evolucao,Data,Indica a data que foi registrado o estado do paciente,Não
+data_1_sintoma,Data,Data em que o paciente teve os primeiros sintomas,Não
+internacao,Texto,Indica se o paciente foi internado,Sim
+uti,Texto,Indica a uti onde o paciente foi internado,Não
+raca,Texto,Indica a raça do paciente,Não
+etnia,Texto,Indica a etnia do paciente,Não
+comorbidade,Texto ,Aponta se o paciente possuia alguma comorbidade,Sim
+data_atualizacao,Data,Data em que o registro do paciente foi atualizado,Sim
+origem_da_informacao,Texto,Fonte de onde a informação sobre o paciente veio,Sim
+,,,
+VACINA,,,
+Campo,Tipo,Descrição,Obrigatório?
+id_envio,Númerico,Identificador do envio de vacina,Sim
+municipio,Texto,Nome do municipio que recebeu as vacinas,Sim
+nome,Texto,Nome da vacina/laboratorio que foi enviada,Sim
+quantida,Númerico,Quantidade de doses da vacina que foram enviadas,Sim
